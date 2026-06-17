@@ -24,6 +24,6 @@ spec:
     spec:
       containers: 
       - name: facebook-container
-        image: sonu171/shashankapp:18
+        image: sonu171/shashankapp:7
         ports:
         - containerPort: 8080
