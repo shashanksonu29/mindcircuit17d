@@ -127,4 +127,4 @@ jobs:
 
         git commit -m "Updated image version ${{ github.run_number }}" || true
 
-        git push https://${{ secrets.GITHUB_TOKEN_REPO }}@github.com/shashanksonu29/mindcircuit17d.git HEAD:main
+        git push https://${{ secrets.TOKEN }}@github.com/shashanksonu29/mindcircuit17d.git HEAD:main
